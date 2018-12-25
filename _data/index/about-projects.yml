@@ -1,0 +1,251 @@
+- id: "1"
+  title: MA部門的工作內容
+  descr: "主要負責維護程式、修改Bug、協助客戶排除問題、需求確認、整理SA/SD文件（當需求修改時）、<br>程式開發、驗收Demo程式。	<br>
+另外會架設IIS上版程式到Server進行測試。"
+  status: "active"
+  image: 
+  badges:
+
+- id: "2"
+  title: 歐力士租車系統
+  descr: "負責保險作業的部分，內容包含：
+  <br>出險紀錄、出險日誌、理賠收件、用印審核、用印審核、用印確認、
+  <br>欠費處理作業(包含自動產生多筆發票代碼)、權限查詢、
+  <br>新增權限（透過DB來控管使用者的權限範圍，透過設定來管理以上功能的可見度）。
+  <br>各項功能的表單內容包含許多的連動控制項，並使用Update Panel使畫面不要閃爍
+  <br>在完成保險作業後會進行結案發mail通知給user。"
+  status: ""
+  image: 
+  badges:
+    - category: "Asp.Net C#"
+    - category: "HTML"
+    - category: "CSS"
+    - category: "JavaScript"
+    - category: "jQuery"
+    - category: "T-SQL"
+    - category: "MS SQL Server"
+    - category: "Stored Procedure"
+    - category: "Crystal Report"
+    - category: "Json"
+
+- id: "3"
+  title: 美國學校採購系統
+  descr: "調整GridView資料的呈現與內容，設計採購表單的介面並自動計算總金額、Auto Complete。將報表由直式改為橫式並套入特定的樣版格式（必填欄位的確認），最後將Excel匯入DB並在GridView中呈現，協助排除問題與修正Bug。"
+  status: ""
+  image: 
+  badges:
+    - category: "Asp.Net MVC C#"
+    - category: "HTML"
+    - category: "CSS"
+    - category: "JavaScript"
+    - category: "jQuery"
+    - category: "T-SQL"
+    - category: "MS SQL Server"
+    - category: "Stored Procedure"
+    - category: "Crystal Report"
+    - category: "Json"
+    - category: "KendoUI"
+    - category: "Ajax"
+
+- id: "4"
+  title: 科技部 - 人事系統/書刊系統
+  descr: "<b>人事系統</b>新增查詢行事曆的介面，與自動加入特定節日。<br><b>書刊系統</b>架構類似人事系統，負責維護書刊系統資料。"
+  status: ""
+  image: 
+  badges:
+    - category: "Asp.Net MVC C#"
+    - category: "HTML"
+    - category: "CSS"
+    - category: "JavaScript"
+    - category: "jQuery"
+    - category: "T-SQL"
+    - category: "MS SQL Server"
+    - category: "Stored Procedure"
+    - category: "Crystal Report"
+    - category: "Json"
+    - category: "KendoUI"
+    - category: "Ajax"
+
+- id: "5"
+  title: 台壽不動產管理增修案
+  descr: "製作發票明細表，從資料庫撈回金額經過運算帶入到客制報表內，報表畫面包頁首頁尾的設計，與儲存格邏輯、連動功的運算、匯出報表的格式轉換成Excel，協助到客戶端過版。"
+  status: ""
+  image: 
+  badges:
+    - category: "Asp.Net MVC C#"
+    - category: "HTML"
+    - category: "CSS"
+    - category: "JavaScript"
+    - category: "jQuery"
+    - category: "T-SQL"
+    - category: "MS SQL Server"
+    - category: "Stored Procedure"
+    - category: "Crystal Report"
+    - category: "Json"
+    - category: "Crystal Report"
+
+- id: "6"
+  title: 科技部審查意見表
+  descr: "製作網頁問卷，協助將Word刻成Web的問卷並測試功能是否正常，包含套表是否能正確帶入對應的值。"
+  status: ""
+  image: 
+  badges:
+    - category: "Asp.Net MVC C#"
+    - category: "HTML"
+    - category: "CSS"
+    - category: "JavaScript"
+    - category: "jQuery"
+    - category: "T-SQL"
+    - category: "MS SQL Server"
+    - category: "Stored Procedure"
+    - category: "Crystal Report"
+    - category: "Json"
+
+- id: "7"
+  title: 技術開發部門的工作內容
+  descr: "需要支援其他部門做問題排除與給予意見（會開Jira問題單給我們Fix），並研究新的技術與維護部分公司內部系統。<br>
+主要負責維護程式、修改Bug、協助同仁排除問題、需求確認、整理技術文件、程式開發、撰寫API。"
+  status: ""
+  image: 
+  badges:
+
+- id: "8"
+  title: iBeep自動開門APP <b>[技術開發部門]</b>
+  descr: "透過iBeacon來完成自動開門的系統，透過RasberryPi結合紅外線偵測，
+  <br>當使用者進入到一定範圍內並且有被紅外線感應到則自動開門。
+  <br>主要負責撰寫介接的API與iOS APP(包含UI設計與呈現)，並且包成APP讓使用者下載。"
+  status: ""
+  image: 
+  badges:
+    - category: "Xamarin.iOS (C#) APP"
+    - category: "REST API"
+    - category: "Azure IOT Hub"
+    - category: "Azure APNS Notification"
+    - category: "Fiddler"
+    - category: "Postman"
+
+- id: "9"
+  title: 差勤系統APP <b>[技術開發部門]</b>
+  descr: "維護公司內部開發的差勤系統APP，使用Cordova包成的跨平台APP，
+  <br>並維護後端介接的API<br>內容包含請假流程、批示各類表單
+  <br>結合SIP透過APP來進行通話、查詢員工出勤的狀態等。"
+  status: ""
+  image: 
+  badges:
+    - category: "Cordova"
+    - category: "AngularJS"
+    - category: "Ionic Framework"
+    - category: "REST API"
+    - category: "HTML"
+    - category: "CSS"
+    - category: "JavaScript"
+    - category: "jQuery"
+    - category: "Json"
+
+- id: "10"
+  title: 智慧客服Bot <b>[技術開發部門]</b>
+  descr: "整合公司內部系統，讓系統可以更方便地在各個聊天平台上進行操作，簡化流程。<br>必須設計Bot的對話格式、對話內容、撰寫介接的API，向各個AP進行驗證。測試連接不同的NLP工具進行語意分析。"
+  status: ""
+  image: 
+  badges:
+    - category: "Bot Framework"
+    - category: "REST API"
+    - category: "Api.ai"
+    - category: "LUIS"
+    - category: "FB Developer"
+
+- id: "11"
+  title: 代理後台
+  descr: "將舊版代理系統ASP.NET Web Form 套用 MVC 框架重構，套用模板與UI調整
+  <br>表格Insert/Update/Filter/Delete/分頁樣板
+  <br>建立共用基本控制項樣板/共用模板EditorTemplate
+  <br>套用Bootstrap 為基底的Template
+  <br>ORM:使用Dapper"
+  status: ""
+  image: 
+  badges:
+    - category: "Asp.Net MVC C#"
+    - category: "HTML"
+    - category: "CSS"
+    - category: "JavaScript"
+    - category: "jQuery"
+    - category: "T-SQL"
+    - category: "MS SQL Server"
+    - category: "Stored Procedure"
+    - category: "Razor"
+    - category: "Json"
+    - category: "Bootstrap"
+    - category: "Ajax"
+
+- id: "12"
+  title: 公司後台維護
+  descr: "整合公司內部系統，負責效能調校、完成新需求、程式碼重構、bug fix。
+  <br><b>新需求：</b>
+  <br>製作動態報表讓使用者可以直接取得對應日期相關的報表資料，不需要到每個報表複製資料貼到Excel。
+  <br>對接多方金流支付
+  <br>風控管理(找出有風險的帳號，在登入/或存提款時進行提示)
+  <br>審核驗證提示介面"
+  status: ""
+  image: 
+  badges:
+    - category: "Asp.Net Web Form C#"
+    - category: "HTML"
+    - category: "CSS"
+    - category: "JavaScript"
+    - category: "jQuery"
+    - category: "T-SQL"
+    - category: "MS SQL Server"
+    - category: "Stored Procedure"
+    - category: "Crystal Report"
+    - category: "Json"
+    - category: "KendoUI"
+    - category: "Ajax"
+
+- id: "13"
+  title: 公司前台維護
+  descr: "負責效能調校、完成新需求、程式碼重構、bug fix。<br><b>新需求：</b>
+  <br>登入頁加上對接第三方驗證碼。
+  <br>主錢包提款餘額不足時自動從其他錢包->主錢包->提款
+  <br>自動存款至其他錢包中(原本只能到主錢包)
+  <br>存提款頁面連動功能"
+  status: ""
+  image: https://instagram.ftpe7-1.fna.fbcdn.net/vp/8c5a87bd64d4ce5d2230786462ce7c7b/5CBBE672/t51.2885-15/e35/21147320_717277865148827_152408958902992896_n.jpg?_nc_ht=instagram.ftpe7-1.fna.fbcdn.net
+  badges:
+    - category: "Asp.Net  Web Form C#"
+    - category: "HTML"
+    - category: "CSS"
+    - category: "JavaScript"
+    - category: "jQuery"
+    - category: "AngularJS"
+    - category: "T-SQL"
+    - category: "MS SQL Server"
+    - category: "Stored Procedure"
+    - category: "Json"
+    - category: "Ajax"
+    - category: "Sass"
+
+- id: "14"
+  title: WebView 版 iOS APP
+  descr: "把現有前台網站套用webView包裝成iOS APP
+  <br>包含創建APP Developer相關設定
+  <br>打包APP，部署APP下載網頁提供使用者下載到手機測試"
+  status: ""
+  image: 
+  badges:
+    - category: "Xcode"
+    - category: "Swift 3"
+
+- id: "15"
+  title: Jekyll Blog
+  descr: "透過GitHub架Jekyll Blog"
+  status: ""
+  image: 
+  badges:
+    - category: "Bootstrap"
+    - category: "Bash"
+    - category: "Ruby on Rail"
+    - category: "Sass"
+    - category: "HTML"
+    - category: "CSS"
+    - category: "JavaScript"
+    - category: "jQuery"

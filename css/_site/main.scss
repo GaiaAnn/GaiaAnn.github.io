@@ -1,0 +1,32 @@
+
+@charset "UTF-8";
+ 
+
+
+// Mixins
+@import "../../_sass/components/mixins";
+
+// Variables
+//@import "../../_sass/components/variables";
+
+// Bootstrap
+@import "../../_sass/bootstrap/bootstrap";
+
+// Reset
+@import "../../_sass/components/normalize";
+@import "../../_sass/components/global";
+@import "../../_sass/components/helpers";
+@import "../../_sass/components/grid";
+@import "../../_sass/components/typography";
+@import "../../_sass/components/buttons";
+@import "../../_sass/components/syntax-highlighting"; 
+@import "../../_sass/components/box";
+
+// Pages styling
+@import "../../_sass/pages/layout";
+@import "../../_sass/pages/tags";
+@import "../../_sass/pages/archive"; 
+@import "../../_sass/pages/post";
+
+// Fonts
+@import url('https://fonts.googleapis.com/css?family=Comfortaa'); 

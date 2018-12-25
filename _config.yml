@@ -1,0 +1,71 @@
+#
+###################################
+# Site wide configuration
+####################################
+#
+title: Coding Girl | GaiaAnn
+email: qaqpop123456@gmail.com
+description: Tech Blog.
+url: https://gaiaann.github.io # the base hostname & protocol for your githubPage
+keywords: ["blog", "jekyll"]
+
+#
+###################################
+# Jekyll configuration
+####################################
+#
+timezone:          Asia/Taipei #Europe/Paris
+markdown:          kramdown
+highlighter:       rouge
+excerpt_separator: <!--more-->
+permalink:         /articles/:year-:month/:title
+
+kramdown:
+  auto_ids: true
+  footnote_nr: 1
+  entity_output: as_char
+  toc_levels: 1..6
+  enable_coderay: false
+
+#
+###################################
+# Site Owner configuration
+####################################
+#
+owner:
+  name: GaiaAnn
+  avatar: avatar.jpg
+  job: "Web Developer Software Engineer"
+  bio: "[ Fall in Love with Code ]"
+  email: qaqpop123456@gmail.com
+  disqus-shortname: GaiaAnnTechBlog
+  twitter: #username
+  facebook: 100006177219806
+  google:
+    plus: #username
+    analytics:
+    verify:
+    ad-client: 
+    ad-slot:
+  bing-verify:
+  github: GaiaAnn
+  gitlab: #username
+  stackoverflow: #123456/username   from a "http://stackoverflow.com/users/123456/username" link
+  linkedin: Jou-An Lai
+  skype: #username
+  xing: #username
+  instagram: qaqpop123456
+  lastfm: #username
+  tumblr: #username
+  pinterest: #username
+  foursquare: #username
+  steam: #username
+  dribbble: #username
+  youtube: #username
+  soundcloud: #username
+  weibo: #username
+  flickr: #username
+  500px: #username
+  codepen: #username
+  reddit: #username
+  telegram: #username

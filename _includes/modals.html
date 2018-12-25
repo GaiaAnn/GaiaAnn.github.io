@@ -1,0 +1,267 @@
+<!-- Modal -->
+<!--InterestsModal-->
+<div class="modal fade" id="interestsModal" tabindex="-1" role="dialog" aria-labelledby="interestsModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-lg" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="interestsModalLabel">Interests</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <div class="container">
+	
+<!--Carousel Wrapper-->
+<div id="carousel-interests" class="carousel slide carousel-fade" data-ride="carousel">
+    <!--Indicators-->
+    <ol class="carousel-indicators">
+      {% for interest in site.data.index.about-interests %}
+              <li data-target="#carousel-interests" data-slide-to="{{ interest.id }}" class="{{ interest.status }}"></li>
+      {% endfor %}
+    </ol>
+    <!--/.Indicators-->
+    <!--Slides-->
+    <div class="carousel-inner" role="listbox">
+        {% for interest in site.data.index.about-interests %}
+        <div class="carousel-item shadow-sm p-3 mb-5 bg-white rounded {{ interest.status }}">
+            <div class="view">
+                <div class="col-md-4 mt-4">
+                            <div class="card profile-card-5">
+                                <div class="card-img-block">
+                                    <img class="card-img-top" src="{{ interest.image }}" alt="{{ interest.name }}">
+                                </div>
+                                    <div class="card-body pt-0">
+                                    <h5 class="card-title">{{ interest.title }}</h5>
+                                    <p class="card-text">{{ interest.descr }}</p>
+                                  </div>
+                                </div>
+                        </div>
+                <div class="mask rgba-black-light"></div>
+            </div>
+        </div>
+        {% endfor %}
+    </div>
+    <!--/.Slides-->
+    <!--Controls-->
+    <a class="carousel-control-prev" href="#carousel-interests" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+    </a>
+    <a class="carousel-control-next" href="#carousel-interests" role="button" data-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+    </a>
+    <!--/.Controls-->
+</div>
+<!--/.Carousel Wrapper-->
+</div>
+</div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-lightGray" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<!--Projects-->
+<div class="modal fade" id="projectsModal" tabindex="-1" role="dialog" aria-labelledby="projectsModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-lg" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="foodieModalModalLabel">Projects</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <div class="container">
+<!--Carousel Wrapper-->
+<div id="carousel-projects" class="carousel slide carousel-fade" data-ride="carousel">
+    <!--Indicators-->
+    <ol class="carousel-indicators">
+      {% for project in site.data.index.about-projects %}
+              <li data-target="#carousel-projects" data-slide-to="{{ project.id }}" class="{{ project.status }}"></li>
+      {% endfor %}
+    </ol>
+    <!--/.Indicators-->
+    <!--Slides-->
+    <div class="carousel-inner" role="listbox">
+        {% for project in site.data.index.about-projects %}
+        <div class="carousel-item shadow-sm p-3 mb-5 bg-white rounded {{ project.status }}">
+            <div class="view">
+                <div class="col-md-4 mt-4">
+                            <div class="card">
+                                <!--<div class="card-img-block">
+                                  <span>{{ project.title }}</span>
+                                  <img class="card-img-top" src="https://images.unsplash.com/photo-1496167117681-944f702be1f4?ixlib=rb-1.2.1&amp;ixid=eyJhcHBfaWQiOjEyMDd9&amp;auto=format&amp;fit=crop&amp;w=800&amp;q=60" alt="{{ project.name }}">
+                                </div>-->
+                                    <div class="card-body pt-0">
+                                    <h5 class="card-title">{{ project.title }}</h5>
+                                    <p class="card-text">{{ project.descr }}</p>
+
+                                    {% for badge in project.badges %}
+                                        <div class="badge badge-gray">{{ badge.category }}</div>
+                                    {% endfor %}
+                                  </div>
+                                </div>
+                        </div>
+                <div class="mask rgba-black-light"></div>
+            </div>
+        </div>
+        {% endfor %}
+    </div>
+    <!--/.Slides-->
+    <!--Controls-->
+    <a class="carousel-control-prev" href="#carousel-projects" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon-customize" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+    </a>
+    <a class="carousel-control-next" href="#carousel-projects" role="button" data-slide="next">
+        <span class="carousel-control-next-icon-customize" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+    </a>
+    <!--/.Controls-->
+</div>
+<!--/.Carousel Wrapper-->
+</div>
+</div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-lightGray" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+<!--personalityModal-->
+<div class="modal fade" id="personalityModal" tabindex="-1" role="dialog" aria-labelledby="personalityModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-lg" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="personalityModalModalLabel">Personality</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <div class="container">
+	
+<!--Carousel Wrapper-->
+<div id="carousel-personality" class="carousel slide carousel-fade" data-ride="carousel">
+    <!--Indicators-->
+    <ol class="carousel-indicators">
+      {% for person in site.data.index.about-personality %}
+              <li data-target="#carousel-personality" data-slide-to="{{ person.id }}" class="{{ person.status }}"></li>
+      {% endfor %}
+    </ol>
+    <!--/.Indicators-->
+    <!--Slides-->
+    <div class="carousel-inner" role="listbox">
+      {% for person in site.data.index.about-personality %}
+        <div class="carousel-item shadow-sm p-3 mb-5 bg-white rounded {{ person.status }}">
+            <div class="view">
+                <div class="col-md-4 mt-4">
+                            <div class="card profile-card-5">
+                                <div class="card-img-block">
+                                    <img class="card-img-top" src="{{ person.image }}" alt="{{ person.name }}">
+                                </div>
+                                    <div class="card-body pt-0">
+                                    <h5 class="card-title">{{ person.title }}</h5>
+                                    <p class="card-text">{{ person.descr }}</p>
+                                  </div>
+                                </div>
+                        </div>
+                <div class="mask rgba-black-light"></div>
+            </div>
+        </div>
+        {% endfor %}
+    </div>
+    <!--/.Slides-->
+    <!--Controls-->
+    <a class="carousel-control-prev" href="#carousel-personality" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+    </a>
+    <a class="carousel-control-next" href="#carousel-personality" role="button" data-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+    </a>
+    <!--/.Controls-->
+</div>
+<!--/.Carousel Wrapper-->
+</div>
+</div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-lightGray" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!--Travel-->
+<div class="modal fade" id="travelModal" tabindex="-1" role="dialog" aria-labelledby="travelModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-lg" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="travelModalModalLabel">Travel</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <div class="container">
+	
+<!--Carousel Wrapper-->
+<div id="carousel-travel" class="carousel slide carousel-fade" data-ride="carousel">
+    <!--Indicators-->
+    <ol class="carousel-indicators">
+      {% for trip in site.data.index.about-travel %}
+              <li data-target="#carousel-travel" data-slide-to="{{ trip.id }}" class="{{ trip.status }}"></li>
+      {% endfor %}
+    </ol>
+    <!--/.Indicators-->
+    <!--Slides-->
+    <div class="carousel-inner" role="listbox">
+      {% for trip in site.data.index.about-travel %}
+        <div class="carousel-item shadow-sm p-3 mb-5 bg-white rounded {{ trip.status }}">
+            <div class="view">
+                <div class="col-md-4 mt-4">
+                            <div class="card profile-card-5">
+                                <div class="card-img-block">
+                                    <img class="card-img-top" src="{{ trip.image }}" alt="{{ trip.name }}">
+                                </div>
+                                    <div class="card-body pt-0">
+                                    <h5 class="card-title">{{ trip.title }}</h5>
+                                    <p class="card-text">{{ trip.descr }}</p>
+                                  </div>
+                                </div>
+                        </div>
+                <div class="mask rgba-black-light"></div>
+            </div>
+        </div>
+        {% endfor %}
+    </div>
+    <!--/.Slides-->
+    <!--Controls-->
+    <a class="carousel-control-prev" href="#carousel-travel" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+    </a>
+    <a class="carousel-control-next" href="#carousel-travel" role="button" data-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+    </a>
+    <!--/.Controls-->
+</div>
+<!--/.Carousel Wrapper-->
+</div>
+</div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-lightGray" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>

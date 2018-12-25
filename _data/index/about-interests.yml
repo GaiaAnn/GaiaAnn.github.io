@@ -1,0 +1,24 @@
+- id: "1"
+  title: Coding
+  descr: "Coding is very cool and fun. I can use this techniques to make some useful tools or website so that people can work more easier.<br>
+  I'm very lucky because I love my job."
+  status: "active"
+  image: https://images.unsplash.com/photo-1521185496955-15097b20c5fe?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60
+
+- id: "2"
+  title: Drawing - Emma Watson
+  descr: "I spend my leisure time drawing. Drawing can assist concentration and focus.<br>Morphing / sketch / watercolor / Watercolor pencils. <br>I already tried all of them :-)"
+  status: ""
+  image: https://instagram.ftpe7-1.fna.fbcdn.net/vp/6a940f7cef320bbcf893bfb6a9ffb383/5CD6C1CC/t51.2885-15/e15/10448938_249959698546745_1260132923_n.jpg?_nc_ht=instagram.ftpe7-1.fna.fbcdn.net
+
+- id: "3"
+  title: Foodie
+  descr: "Although I eat like a bird. I still love to discover decilious food. <br><b>Taiwan</b> is gourmet paradise!"
+  status: ""
+  image: https://instagram.ftpe7-1.fna.fbcdn.net/vp/db7960e8518cad586211c04a72e041db/5CA3B370/t51.2885-15/e35/43818246_297743787618267_8984325009053768651_n.jpg?_nc_ht=instagram.ftpe7-1.fna.fbcdn.net
+
+- id: "4"
+  title: Movie & TV Series
+  descr: "I love to watch movies and TV Series because some story is very creative. <br>Especially detective films!"
+  status: ""
+  image: https://www.hideipvpn.com/wp-content/uploads/2014/06/sherlock-1024x718.jpg
